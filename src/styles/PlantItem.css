@@ -1,0 +1,69 @@
+.lmj-plant-item-cover {
+	height: 250px;
+	width: 250px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.lmj-plant-item {
+	margin: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	position: relative;
+}
+
+.lmj-plant-item-price {
+	position: absolute;
+	border-radius: 20px 20px 20px 0;
+	background-color: #31b472;
+	color: white;
+	padding: 15px;
+	right: 0;
+	top: 0;
+	font-weight: 500;
+}
+
+@media (max-width: 599px) {
+    .lmj-plant-item-cover {
+        height: 150px;
+        width: 150px; 
+    }
+    .lmj-plant-item {
+        margin: 5px;
+    }
+    .lmj-plant-item-price {
+        padding: 10px; 
+        font-size: 0.8em; 
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .lmj-plant-item-cover {
+        height: 200px;
+        width: 200px; 
+    }
+    .lmj-plant-item-price {
+        padding: 12px; 
+        font-size: 0.9em; 
+    }
+}
+
+
+@media (min-width: 769px) {
+    .lmj-plant-item-cover {
+        height: 250px;
+        width: 250px; 
+    }
+    .lmj-plant-item {
+        margin: 10px; 
+    }
+    .lmj-plant-item-price {
+        padding: 15px; 
+        font-size: 1em; 
+    }
+}
+

@@ -1,0 +1,63 @@
+.lmj-banner {
+	color: black;
+	text-align: right;
+	padding: 32px;
+	border-bottom: solid 3px black;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
+}
+
+.lmj-title {
+	padding-left: 32px;
+}
+
+.lmj-logo {
+	height: 45px;
+	width: 45px;
+}
+
+@media (min-width: 600px) {
+    .lmj-banner {
+        padding: 24px; 
+    }
+
+    .lmj-title {
+        padding-left: 24px; 
+    }
+}
+
+
+@media (min-width: 768px) {
+    .lmj-banner {        
+        flex-direction: row; 
+    }
+
+    .lmj-title, .lmj-logo {
+        padding-left: 16px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .lmj-banner {
+        padding: 32px; 
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .lmj-banner {
+        justify-content: space-between; 
+    }
+
+    .lmj-title {
+        font-size: larger; 
+    }
+
+    .lmj-logo {
+        height: 60px; 
+        width: 60px;
+    }
+}
